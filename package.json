@@ -1,0 +1,25 @@
+{
+  "name": "react-app-from-scratch",
+  "version": "1.0.0",
+  "description": "I completed the official [Intro to React](https://reactjs.org/tutorial/tutorial.html), but feel like too much was done for me to completely understand how everything works together.  ~~I will follow [this tutorial](https://medium.com/@JedaiSaboteur/creating-a-react-app-from-scratch-f3c693b84658)~~ The above tutorial is out of date, instead I will initialize the project with webpack and then add React to it.",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brndnknn/react-app-from-scratch.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brndnknn/react-app-from-scratch/issues"
+  },
+  "homepage": "https://github.com/brndnknn/react-app-from-scratch#readme",
+  "devDependencies": {
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2"
+  }
+}
