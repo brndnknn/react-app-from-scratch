@@ -15,3 +15,20 @@ The above tutorial is out of date, instead I will initialize the project with we
 - make better use of all the features git has to offer
 - use Bable for the first time
 
+
+----
+### the following cli comands are required for setup
+```
+npm init -y
+npm install webpack webpack-cli --save-dev
+```
+
+this allows css files to be loaded
+`npm install --save-dev style-loader css-loader`
+
+webpack handles images and fonts natively, as well as JSON files
+
+to import CSV, TSV, and XML files use
+`npm install --save-dev csv-loader xml-loader`
+
+
