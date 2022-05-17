@@ -31,4 +31,8 @@ webpack handles images and fonts natively, as well as JSON files
 to import CSV, TSV, and XML files use
 `npm install --save-dev csv-loader xml-loader`
 
+for HTMLWebpackPlugin
+`npm install --save-dev html-webpack-plugin`
+
+
 
