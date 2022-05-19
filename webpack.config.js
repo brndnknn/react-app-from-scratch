@@ -2,13 +2,21 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const path = require('path');
 
 module.exports = {
+    mode: 'development',
     entry: {
         index: './src/index.js',
         print: './src/print.js',
     },
     plugins: [
         new HtmlWebpackPlugin({
-            title: 'Output MGMT',
+            inject: false,
+            'meta': {
+                'charset': "utf-8",
+                'viewport': 'width=device-width, initial-scale=1, shrink-to-fit=no'
+        },
+            title: 'index template',
+            template: 'src/index.html',
+
         }),
     ],
     output: {

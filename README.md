@@ -17,7 +17,7 @@ The above tutorial is out of date, instead I will initialize the project with we
 
 
 ----
-### the following cli comands are required for setup
+### the following cli commands are required for setup
 ```
 npm init -y
 npm install webpack webpack-cli --save-dev
