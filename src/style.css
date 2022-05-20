@@ -2,3 +2,8 @@
     color: red;
     background-color: black;
 }
+
+.reactComponent {
+    background-color: #ff00ff;
+    padding: 1em;
+}

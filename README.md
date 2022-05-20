@@ -14,6 +14,7 @@ The above tutorial is out of date, instead I will initialize the project with we
 - create a React app that displays on my github pages 
 - make better use of all the features git has to offer
 - use Bable for the first time
+- create a shell script to automate a project set up
 
 
 ----
@@ -34,5 +35,11 @@ to import CSV, TSV, and XML files use
 for HTMLWebpackPlugin
 `npm install --save-dev html-webpack-plugin`
 
+for React 
+`npm  install --save-dev react react-dom`
 
+for Babel
+`npm install --save-dev @babel/core @babel/cli @babel/preset-env @babel/preset-react`
+and
+`npm install --save-dev babel-loader`
 

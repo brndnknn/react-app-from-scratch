@@ -9,7 +9,7 @@ module.exports = {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            inject: false,
+         inject: false,
             'meta': {
                 'charset': "utf-8",
                 'viewport': 'width=device-width, initial-scale=1, shrink-to-fit=no'
@@ -33,6 +33,16 @@ module.exports = {
             {
                 test: /\.(png|svg|jpg|jpeg|gif)$/i,
                 type: 'asset/resource',
+            },
+            {
+                test: /\.(js|jsx)$/,
+                exclude: /node_modules/,
+                use: {
+                    loader: "babel-loader",
+                    options: {
+                        presets: ['@babel/preset-env']
+                    }
+                }
             },
         ],
     },
