@@ -18,7 +18,7 @@
   "bugs": {
     "url": "https://github.com/brndnknn/react-app-from-scratch/issues"
   },
-  "homepage": "https://github.com/brndnknn/react-app-from-scratch/dist/index.html",
+  "homepage": "https://github.com/brndnknn/react-app-from-scratch/",
   "devDependencies": {
     "@babel/cli": "^7.17.10",
     "@babel/core": "^7.18.0",
