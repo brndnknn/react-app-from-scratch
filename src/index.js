@@ -2,7 +2,7 @@ import './style.css';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import Icon from './webpackIcon.svg';
-import printMe from './print';
+import Clock from './clock';
 
 
 
@@ -22,7 +22,8 @@ function ReactButton(props){
 }
 
 
-function ExComponent(){
+class ExComponent extends React.Component{
+    render(){
         return (
             <div className='reactComponent'>
                 <h1>Hello React</h1>
@@ -30,36 +31,15 @@ function ExComponent(){
                     Hello webpack
                     <ReactImage image={Icon} />
                     <ReactButton text="Click me and check the console!" />
-                    
+                    <Clock />
                     
                 </div>
             </div>
         );
-    
-
+    }
 }
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<ExComponent />);
 
-function component() {
-    const element = document.createElement('div');
-    const btn = document.createElement('button');
-
-    element.innerHTML = 'Hello webpack';
-    element.classList.add('hello');
-
-    btn.innerHTML = 'Click me and check the console!';
-    btn.onclick = printMe;
-
-    const myIcon = new Image();
-    myIcon.src = Icon;
-
-    element.appendChild(myIcon);
-    element.appendChild(btn);
-
-    return element;
-}
-
-document.body.appendChild(component());

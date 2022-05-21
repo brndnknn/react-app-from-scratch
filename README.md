@@ -8,13 +8,13 @@ The above tutorial is out of date, instead I will initialize the project with we
 
 ### Objectives
 ---
-- gain more familiarity with Webpack
-- learn how to integrate React to a Webpack project
-- learn how to create a React project without using `create-react-app` command
-- create a React app that displays on my github pages 
-- make better use of all the features git has to offer
-- use Bable for the first time
-- create a shell script to automate a project set up
+- [x] gain more familiarity with Webpack
+- [x] learn how to integrate React to a Webpack project
+- [x] learn how to create a React project without using `create-react-app` command
+- [x] create a React app that displays on my github pages 
+- [x] make better use of features of git 
+- [x] use Bable for the first time
+- [ ] create a shell script to automate a project set up
 
 
 ----
